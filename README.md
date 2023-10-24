@@ -12,10 +12,10 @@ Table of Contents
 
 Installation
 
-	1.	Clone the repository:
+	[https://github.com/Charishma-K/sendx-frontend--IIT2020211-]
 
-git clone [https://github.com/Charishma-K/sendx-frontend--IIT2020211-]
 
+1.	Clone the repository: git clone 
 	2.	Navigate to the project directory:
 
 cd vue-tailwind-starter
