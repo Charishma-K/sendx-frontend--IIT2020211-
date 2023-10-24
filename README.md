@@ -12,7 +12,7 @@ Table of Contents
 
 Installation
 
-	 git clone  [https://github.com/Charishma-K/sendx-frontend--IIT2020211-]
+	 https://github.com/Charishma-K/sendx-frontend--IIT2020211-
 
 
 1.	Clone the repository:
