@@ -14,7 +14,7 @@ Installation
 
 	1.	Clone the repository:
 
-git clone [Your Repository Link]
+git clone [https://github.com/Charishma-K/sendx-frontend--IIT2020211-]
 
 	2.	Navigate to the project directory:
 
