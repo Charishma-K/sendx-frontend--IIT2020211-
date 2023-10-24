@@ -12,33 +12,35 @@ Table of Contents
 
 Installation
 
-	[https://github.com/Charishma-K/sendx-frontend--IIT2020211-]
+	 git clone  [https://github.com/Charishma-K/sendx-frontend--IIT2020211-]
 
 
-1.	Clone the repository: git clone 
-	2.	Navigate to the project directory:
+1.	Clone the repository:
+	
+         cd vue-tailwind-starter
 
-cd vue-tailwind-starter
+2.	Navigate to the project directory:
 
-	3.	Install the required dependencies:
+         npm install
 
-npm install
+ 3.	Install the required dependencies:
 
 Scripts
 
-	•	Development: Compiles and hot-reloads for development.
+	npm run serve 
 
-npm run serve
+•	Development: Compiles and hot-reloads for development.
+
+ 
+      npm run build 
+	
+
+ •	Production: Compiles and minifies for production.
 
 
-	•	Production: Compiles and minifies for production.
+	 npm run lint
 
-npm run build
-
-
-	•	Linting: Lints and fixes files.
-
-npm run lint
+ •	Linting: Lints and fixes files.
 
 
 
@@ -52,3 +54,5 @@ Technologies Used
 Video Walkthrough
 
 A video walkthrough of this project is available here. It provides an in-depth overview of the project and its functionality.
+[Frontend](https://drive.google.com/file/d/1HRR8UzQszg9eauxdkAdUI7NoeLl12J4k/view?usp=drivesdk)
+[Code](https://drive.google.com/file/d/1tUHujerNTPbCT3M99ejs9FvqeSkmXpY4/view?usp=drivesdk)
