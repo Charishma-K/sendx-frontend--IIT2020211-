@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import FormSelection from '../components/FormSelection.vue';
-import Type from '../components/FormSelection.vue'; 
+import Type from '../components/Type.vue'; 
 import Design from '../components/Design.vue'; 
 import Content from '../components/Content.vue';
 import Targeting from '../components/Targeting.vue';
 import Behaviour from '../components/Behaviour.vue';
 import Success from '../components/Success.vue';
- // Import other components
-// ... and so on
+ 
+
 
 const routes = [
   {
@@ -18,31 +18,31 @@ const routes = [
   {
     path: '/',
     name: 'type',
-    component: Type  // Adjust based on actual component and path names
+    component: Type  
   },
   {
     path: '/design',
     name: 'design',
-    component: Design // Adjust based on actual component and path names
+    component: Design 
   },
   {
     path: '/content',
     name: 'content',
-    component: Content // Adjust based on actual component and path names
+    component: Content 
   },{
     path: '/targeting',
     name: 'targeting',
-    component: Targeting // Adjust based on actual component and path names
+    component: Targeting 
   },{
     path: '/behaviour',
     name: 'behaviour',
-    component: Behaviour // Adjust based on actual component and path names
+    component: Behaviour 
   },{
     path: '/success',
     name: 'success',
-    component: Success // Adjust based on actual component and path names
+    component: Success 
   },
-  // ... add routes for other pages
+  
 ];
 
 const router = createRouter({

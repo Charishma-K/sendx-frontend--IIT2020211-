@@ -142,9 +142,14 @@
    <div class="flex justify-end w-full mt-4">
     <!-- Go back & Continue buttons section -->
     <!-- As per your previous code ... -->
-    <div class="flex justify-end w-1/2 mt-4">
-      <button class="text-gray-700 underline">Go back</button>
-      <button class="px-4 py-2 border rounded-lg border-gray-300 bg-white text-black ml-4 shadow-sm">Continue</button>
+   <div class="flex justify-end w-1/2 mt-4">
+      <div>
+    <!-- Go back button -->
+    <router-link :to="{ name: 'targeting' }" class="text-gray-700 underline">Go back</router-link>
+
+    <!-- Continue button -->
+    <router-link :to="{ name: 'success' }" class="px-4 py-2 border rounded-lg border-gray-300 bg-white text-black ml-4 shadow-sm">Continue</router-link>
+  </div>
     </div>
      </div>
    </div>
@@ -166,24 +171,24 @@ export default {
 </script>
 
 <style scoped>
-/* Keeps the styles for the other sections intact */
+
 .advanced-container {
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   padding: 30px 0;
 }
 
-/* Targets the specific .advanced-container between 2nd and 3rd div and removes padding and border */
+
 #second-div + .advanced-container {
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   padding: 0;
 }
-/* This will only affect the specific advanced-container with the remove-gap class */
+
 .remove-gap {
   border-top: none;
   padding: 0;
 }.custom-input {
-  border-radius: 5px; /* Slight rounding on all corners */
-  width: 40px; /* Adjust to make the box smaller */
+  border-radius: 5px; 
+  width: 40px; 
 }
 
 .shadow-text {
@@ -204,23 +209,23 @@ export default {
         -moz-appearance: textfield !important;
     }
     .my-custom-container {
-  margin-bottom: -40px; /* Adjust as necessary */
+  margin-bottom: -40px;
 }
 #third-div {
-  margin-top: 0 !important; /* Override any existing margin */
-  padding-top: 0 !important; /* Override any existing padding */
+  margin-top: 0 !important; 
+  padding-top: 0 !important; 
 }
 #second-div {
-  margin-bottom: 0 !important; /* Override any existing margin */
-  padding-bottom: 0 !important; /* Override any existing padding */
+  margin-bottom: 0 !important; 
+  padding-bottom: 0 !important; 
 }
-/* Directly Targeting the 2nd Div */
+
 .container > div:nth-child(2) {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
 
-/* Directly Targeting the 3rd Div */
+
 .container > div:nth-child(3) {
   margin-top: 0 !important;
   padding-top: 0 !important;
@@ -237,5 +242,5 @@ export default {
 }
 
 
-/* Add more styles as needed */
+
 </style>

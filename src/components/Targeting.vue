@@ -66,9 +66,15 @@
 </div>
       <!-- Go back & Continue buttons -->
     <div class="flex justify-end w-1/2 mt-4">
-      <button class="text-gray-700 underline">Go back</button>
-      <button class="px-4 py-2 border rounded-lg border-gray-300 bg-white text-black ml-4 shadow-sm">Continue</button>
+      <div>
+    <!-- Go back button -->
+    <router-link :to="{ name: 'content' }" class="text-gray-700 underline">Go back</router-link>
+
+    <!-- Continue button -->
+    <router-link :to="{ name: 'behaviour' }" class="px-4 py-2 border rounded-lg border-gray-300 bg-white text-black ml-4 shadow-sm">Continue</router-link>
+  </div>
     </div>
+    
     <div class="fixed bottom-0 left-0 w-full bg-white shadow-md py-2 px-4">
   <div class="flex justify-end items-center space-x-6">  <!-- Increased space-x from 4 to 6 -->
     <span class="text-gray-500 shadow-text">Last updated: <span class="text-gray-500">12:07, 11 Mar, 2022</span></span>

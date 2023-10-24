@@ -78,10 +78,10 @@ export default {
    align-items: center;
    height: 60px;
    padding: 0 20px;
-   background-color: #35393d; /* Light gray for distinction */
+   background-color: #35393d;
 }
 .new-navbar {
-  background-color: #424242;  /* Darker gray */
+  background-color: #424242;  
   width: 100vw;
   position: fixed;
   top: 0;

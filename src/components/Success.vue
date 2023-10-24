@@ -39,8 +39,10 @@
      
       <!-- Go back & Continue buttons -->
     <div class="flex justify-end w-1/2 mt-4">
-      <button class="text-gray-700 underline">Go back</button>
+    <div>
+      <router-link :to="{ name: 'targeting' }" class="text-gray-700 underline">Go back</router-link>
       <button class="px-4 py-2 border rounded-lg border-gray-300 bg-white text-black ml-4 shadow-sm">Finish</button>
+      </div>
     </div>
    
 
@@ -55,8 +57,8 @@ export default {
 </script>
 <style>
 .custom-input {
-  border-radius: 5px; /* Slight rounding on all corners */
-  width: 40px; /* Adjust to make the box smaller */
+  border-radius: 5px; 
+  width: 40px; 
 }
 
 </style>
